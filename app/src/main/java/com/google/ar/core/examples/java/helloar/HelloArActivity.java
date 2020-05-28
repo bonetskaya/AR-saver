@@ -455,7 +455,6 @@ public class HelloArActivity extends AppCompatActivity implements GLSurfaceView.
                     if (anchors.size() >= 20) {
                         anchors.get(0).anchor.detach();
                         anchors.remove(0);
-                        anchors.remove(0);
                     }
 
 
